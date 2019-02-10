@@ -1,4 +1,4 @@
-package webtraining.zone.arrays;
+package webtraining.zone.lists;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -23,6 +23,7 @@ public class LinkedListTest {
     }
 
     public static void main(String[] args) {
+        // This is using "generics", it is much better ;)
         List<String> fruits = new LinkedList<>();
 
         fruits.add("apple");
