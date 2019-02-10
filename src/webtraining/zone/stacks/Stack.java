@@ -1,5 +1,6 @@
 package webtraining.zone.stacks;
 
+import java.lang.annotation.ElementType;
 import java.util.LinkedList;
 import java.util.StringJoiner;
 
@@ -21,6 +22,11 @@ public class Stack<E> {
         // Get first element
         E element = this.elements.getFirst();
         this.elements.removeFirst();
+        return element;
+    }
+
+    public E peek() {
+        E element = this.elements.getFirst();
         return element;
     }
 

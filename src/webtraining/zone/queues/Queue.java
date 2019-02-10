@@ -34,6 +34,11 @@ public class Queue<E> {
         return this.elements.size();
     }
 
+    public E peek() {
+        E element = this.elements.getFirst();
+        return element;
+    }
+
     @Override
     public String toString() {
         StringJoiner stringJoiner = new StringJoiner(" <- ", "[", "]");
