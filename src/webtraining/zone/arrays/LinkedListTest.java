@@ -1,3 +1,5 @@
+package webtraining.zone.arrays;
+
 import java.util.LinkedList;
 import java.util.List;
 
