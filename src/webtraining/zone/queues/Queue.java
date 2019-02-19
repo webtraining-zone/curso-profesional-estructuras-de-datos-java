@@ -8,7 +8,7 @@ public class Queue<E> {
     private LinkedList<E> elements;
 
     public Queue() {
-        this.elements = new LinkedList<E>();
+        this.elements = new LinkedList<>();
     }
 
     // Adds a new item to the rear of the queues. It needs the item and returns nothing.
